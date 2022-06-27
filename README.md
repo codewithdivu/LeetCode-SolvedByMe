@@ -1,1 +1,2 @@
-![Leetcode Stats](https://leetcard.jacoblin.cool/Divu_017?theme=dark)
+![](https://leetcard.jacoblin.cool/Divu_017?theme=unicorn)
+![](https://leetcard.jacoblin.cool/Divu_017?theme=light,unicorn)
