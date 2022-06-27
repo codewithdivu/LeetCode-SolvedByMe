@@ -1,2 +1,1 @@
-# LeetCode-SolvedByMe
-![Leetcode Stats](https://leetcard.Divu_017/Divu_017)
+![Leetcode Stats](https://leetcard.jacoblin.cool/Divu_017)
