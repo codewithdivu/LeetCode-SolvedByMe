@@ -1,26 +1,28 @@
-class Solution {
+class Solution
+{
 public:
-    
-    
-    bool isPalindrome(string str){
-    bool check = 1;
-    for (int i = 0; i < str.length(); i++)
+    bool isPalindrome(string str)
     {
-        if (str[i] != str[str.length() - 1 - i])
+        bool check = 1;
+        for (int i = 0; i < str.length(); i++)
         {
-            check = 0;
-            break;
+            if (str[i] != str[str.length() - 1 - i])
+            {
+                check = 0;
+                break;
+            }
         }
-    }
 
         return check;
     }
-    
-    string firstPalindrome(vector<string>& words) {
-        
-        
-        for(int j=0;j<words.size();j++){
-            if(isPalindrome(words[j])){
+
+    string firstPalindrome(vector<string> &words)
+    {
+
+        for (int j = 0; j < words.size(); j++)
+        {
+            if (isPalindrome(words[j]))
+            {
                 return words[j];
             }
         }
